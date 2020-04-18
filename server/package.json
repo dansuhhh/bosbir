@@ -1,0 +1,32 @@
+{
+  "name": "bosbir-server",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansuhhh/bosbir.git"
+  },
+  "author": "Daniel Suh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dansuhhh/bosbir/issues"
+  },
+  "homepage": "https://github.com/dansuhhh/bosbir#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
